@@ -16,7 +16,10 @@ function HomePage() {
         </h1>
         <p>This is a portfolio site I am in the process of building</p>
         <div className="icons">
-          <a href="https://codepen.io/pen/" className="icon i-linkedin">
+          <a
+            href="https://www.linkedin.com/in/dan-hyman-dev/"
+            className="icon i-linkedin"
+          >
             <LinkedInIcon />
           </a>
           <a href="https://github.com/dahyman91" className="icon i-github">
