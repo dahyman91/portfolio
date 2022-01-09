@@ -1,12 +1,11 @@
-import {createGlobalStyle} from 'styled-components';
-
+import { createGlobalStyle } from "styled-components";
 
 const GlobalStyle = createGlobalStyle`
 /* :root{
-    --primary-color: #007bff;
-    --primary-color-light: #057FFF;
+    --primary-color: #CAE9C0;
+    --primary-color-light: #CAE9C0;
     --secondary-color: #6c757d;
-    --background-dark-color: #10121A;
+    --background-dark-color: #CAE9C0;
     --background-dark-grey: #191D2B;
     --border-color: #2e344e;
     --background-light-color: #F1F1F1;
@@ -41,9 +40,9 @@ const GlobalStyle = createGlobalStyle`
     --scrollbar-track-color: #383838;
 }
 .dark-theme{
-    --primary-color: #007bff;
-    --primary-color-light: #057FFF;
-    --secondary-color: #6c757d;
+    --primary-color: #CAE9C0;
+    --primary-color-light: #CAE9C0;
+    --secondary-color: #CAE9C0;
     --background-dark-color: #10121A;
     --background-dark-grey: #191D2B;
     --border-color: #2e344e;
