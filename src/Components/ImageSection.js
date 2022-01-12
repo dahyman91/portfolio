@@ -18,12 +18,12 @@ function ImageSection() {
           working as a Chef and Catering Director (more than) full time. When
           the pandemic hit and the office buildings that my catering program
           serviced were vacated, I took the opportunity to dive into a new
-          career. For over a year now, I have dilligently tought myself the
+          career. For over a year now, I have diligently taught myself the
           latest web development technologies and have had opportunities to work
           with all kinds of clients! This experience has helped foster a range
           of skills, from ideation to deployment and everything in between. Most
-          recently I have recently enrolled in the software engineering program
-          at the immersive coding bootcamp
+          recently I have enrolled in the software engineering program at the
+          immersive coding bootcamp
           <span>
             <a
               target="blank"
