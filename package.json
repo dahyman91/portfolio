@@ -49,5 +49,13 @@
   "license": "ISC",
   "devDependencies": {
     "netlify-cli": "^8.15.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dahyman91/portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dahyman91/portfolio/issues"
+  },
+  "homepage": "https://github.com/dahyman91/portfolio#readme"
 }
