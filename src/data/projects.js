@@ -1,46 +1,43 @@
-import css1 from "../img/portImages/cv_css.png";
-import css2 from "../img/portImages/ms.png";
-import react1 from "../img/portImages/react_styled.png";
-import img2 from "../img/portImages/maya-4.jpg";
-import img3 from "../img/portImages/maya-3.jpg";
+import falconi from "../img/falconi.png";
+import bugTracker from "../img/bugTracker.png";
+import store from "../img/store.png";
+import stocks from "../img/stock.png";
 
 const projects = [
   {
     id: 1,
-    category: "CSS",
-    image: css1,
-    link1: "https://falconimedia.com",
-    link2: "https://www.google.com",
-    title: "Falconi Media Company Website",
-    text: "Created with only HTML and CSS.",
+    category: "React",
+    image: bugTracker,
+    link1: "https://peaceful-meadow-98604.herokuapp.com/",
+    link2: "https://github.com/dahyman91/bug-tracker",
+    title: "Bug Tracker",
+    text: "Full stack project management tool built with React, Rails, Material UI, and ChartJS",
   },
   {
     id: 2,
     category: "React",
-    image: "../img/ecommerce.jpg",
+    image: store,
     link1: "https://ecommerce-material-ui-project.herokuapp.com/",
-    link2: "https://www.google.com",
+    link2: "https://github.com/dahyman91/ecommerce",
     title: "Ecommerce Site",
-    text: "Fullstack E-commerce website built with React and Rails, using Material UI",
+    text: "Fullstack E-commerce site built with React, Rails, and Material UI",
   },
-
   {
     id: 3,
     category: "React",
-    image: img2,
+    image: stocks,
     link1: "https://financial-dashboard-project.netlify.app/",
-    link2: "https://www.google.com",
+    link2: "https://github.com/dahyman91/financial-dashboard",
     title: "Financial Dashboard",
-    text: "A tool to track stocks and manage a portfolio. Built with React, Semantic UI and ChartJS.",
+    text: "A tool to track stocks and manage a stock portfolio. Built with React, Semantic UI and ChartJS.",
   },
   {
-    id: 6,
-    category: "React",
-    image: react1,
-    link1: "https://www.google.com",
-    link2: "https://www.google.com",
-    title: "Responsive Portfolio Website",
-    text: "Created using different technologies such as Material UI, Styled-Components and more...",
+    id: 4,
+    category: "CSS",
+    image: falconi,
+    link1: "https://falconimedia.com",
+    title: "Falconi Media Agency Website",
+    text: "Created with Bootstrap.",
   },
 ];
 

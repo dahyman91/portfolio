@@ -14,7 +14,7 @@ function HomePage() {
         <h1>
           Hi, I'm <span>Dan Hyman</span>
         </h1>
-        <p>This is a portfolio site I am in the process of building</p>
+        <p>Thanks for visiting my portfolio!</p>
         <div className="icons">
           <a
             href="https://www.linkedin.com/in/dan-hyman-dev/"

@@ -20,11 +20,7 @@ function Navigation() {
             About
           </NavLink>
         </li>
-        <li className="nav-item">
-          <NavLink to="/resume" activeClassName="active-class" exact>
-            Resume
-          </NavLink>
-        </li>
+
         <li className="nav-item">
           <NavLink to="/portfolios" activeClassName="active-class" exact>
             Projects
@@ -43,7 +39,7 @@ function Navigation() {
       </ul>
       <footer className="footer">
         <p>
-          @2021 <b>Lorem Ipsum</b>
+          @2022 <b>Daniel Hyman</b>
         </p>
       </footer>
     </NavigationStyled>

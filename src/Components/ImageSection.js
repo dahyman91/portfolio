@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import resume from "../img/resume.jpg";
 import PrimaryButton from "./PrimaryButton";
+import Resume from "../img/resume.pdf.pdf";
 
 function ImageSection() {
   return (
@@ -14,42 +15,39 @@ function ImageSection() {
           My Programming<span> Journey</span>
         </h4>
         <p className="paragraph">
-          I had always wanted to learn to code, but never had the time, as I was
-          working as a Chef and Catering Director (more than) full time. When
-          the pandemic hit and the office buildings that my catering program
-          serviced were vacated, I took the opportunity to dive into a new
-          career. For over a year now, I have diligently taught myself the
-          latest web development technologies and have had opportunities to work
-          with all kinds of clients! This experience has helped foster a range
-          of skills, from ideation to deployment and everything in between. Most
-          recently I have enrolled in the software engineering program at the
-          immersive coding bootcamp
+          I’ve been curious about the world of software development since
+          college, but my time-intensive jobs as a Chef and Catering Director
+          made a career pivot seem unrealistic. When the pandemic hit and the
+          office buildings that my catering program serviced vacated, I took the
+          opportunity to dive into a new field. Since March 2020, I have
+          diligently taught myself the latest web development technologies and
+          had opportunities to work with all kinds of clients. I’ve gained a
+          range of skills, from ideation to deployment and everything in
+          between. In January 2022, I graduated from the software engineering
+          program at the immersive coding bootcamp
           <span>
-            <a
-              target="blank"
-              href="https://flatironschool.com/campus-and-online-coding-bootcamp/"
-            >
+            <a target="blank" href={Resume}>
               {" "}
               Flatiron School
             </a>
-          </span>{" "}
-          where I hope to continue to hone my skills and launch my career as a
-          software engineer.
+          </span>
+          , and {"I’m"} looking forward to joining a team of inspiring,
+          like-minded engineers.
         </p>
         <div className="about-info">
           <div className="info-title">
-            <p>Full Name</p>
-            <p>Age</p>
+            <p>Full Name:</p>
+            <p>Age:</p>
 
-            <p>Location</p>
+            <p>Location:</p>
           </div>
           <div className="info">
-            <p>: Daniel Hyman</p>
-            <p>: 29</p>
-            <p>: New York City, United States</p>
+            <p>Daniel Hyman</p>
+            <p>30</p>
+            <p>Brooklyn, New York</p>
           </div>
         </div>
-        <PrimaryButton title={"Download Cv"} />
+        <PrimaryButton target="blank" link={Resume} title={"View Resume"} />
       </div>
     </ImageSectionStyled>
   );
