@@ -56,7 +56,6 @@ const NavigationStyled = styled.nav`
   border-right: 1px solid var(--border-color);
   .avatar {
     width: 100%;
-    border-bottom: 1px solid var(--border-color);
     text-align: center;
     padding: 1rem 0;
     img {
@@ -110,7 +109,6 @@ const NavigationStyled = styled.nav`
   }
 
   footer {
-    border-top: 1px solid var(--border-color);
     width: 100%;
     p {
       padding: 1.3rem 0;
