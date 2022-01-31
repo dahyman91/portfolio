@@ -43,7 +43,7 @@ const GlobalStyle = createGlobalStyle`
     --primary-color: #CAE9C0;
     --primary-color-light: #CAE9C0;
     --secondary-color: #CAE9C0;
-    --background-dark-color: #10121A;
+    --background-dark-color: #353D32;
     --background-dark-grey: #191D2B;
     --border-color: #2e344e;
     --background-light-color: #F1F1F1;
@@ -52,7 +52,7 @@ const GlobalStyle = createGlobalStyle`
     --font-light-color: #a4acc4;
     --font-dark-color: #313131;
     --font-dark-color-2: #151515;
-    --sidebar-dark-color: #191D2B;
+    --sidebar-dark-color: #6C7D66;
     --scrollbar-bg-color: #383838;
     --scrollbar-thump-color: #6b6b6b;
     --scrollbar-track-color: #383838;

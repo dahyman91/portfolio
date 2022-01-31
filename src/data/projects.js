@@ -11,7 +11,7 @@ const projects = [
     link1: "https://peaceful-meadow-98604.herokuapp.com/",
     link2: "https://github.com/dahyman91/bug-tracker",
     title: "Bug Tracker",
-    text: "Full stack project management tool built with React, Rails, Material UI, and ChartJS",
+    text: "Full stack project management tool built with React, Rails, Material UI, and ChartJS. Deployed on Heroku, please be patient while it boots.",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const projects = [
     link1: "https://ecommerce-material-ui-project.herokuapp.com/",
     link2: "https://github.com/dahyman91/ecommerce",
     title: "Ecommerce Site",
-    text: "Fullstack E-commerce site built with React, Rails, and Material UI",
+    text: "Fullstack E-commerce site built with React, Rails, and Material UI. Deployed on Heroku, please be patient while it boots.",
   },
   {
     id: 3,
