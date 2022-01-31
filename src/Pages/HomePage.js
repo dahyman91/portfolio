@@ -2,14 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import GithubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import Particle from "../Components/Particle";
+import PrimaryButton from "../Components/PrimaryButton";
+import Resume from "../img/resume.pdf.pdf";
 
 function HomePage() {
   return (
     <HomePageStyled>
-      <div className="particle-con">
-        <Particle />
-      </div>
+      <div className="particle-con"></div>
       <div className="typography">
         <h1>
           Hi, I'm <span>Dan Hyman</span>
@@ -25,6 +24,9 @@ function HomePage() {
           <a href="https://github.com/dahyman91" className="icon i-github">
             <GithubIcon />
           </a>
+        </div>
+        <div className="icons">
+          <PrimaryButton title={"View Resume"} link={Resume} />
         </div>
       </div>
     </HomePageStyled>

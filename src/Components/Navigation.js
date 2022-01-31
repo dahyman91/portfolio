@@ -58,11 +58,11 @@ const NavigationStyled = styled.nav`
     width: 100%;
     border-bottom: 1px solid var(--border-color);
     text-align: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
     img {
-      width: 80%;
-      border-radius: 50%;
-      border: 8px solid var(--border-color);
+      width: 50%;
+      border-radius: 10%;
+      border: 1px solid var(--border-color);
     }
   }
 
